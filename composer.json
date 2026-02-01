@@ -1,0 +1,22 @@
+{
+  "name": "laraswag/laravel-swagger-exporter",
+  "description": "A small Laravel package to export model-based Swagger YAML files and provide a simple Swagger UI view.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Laraswag\\LaravelSwaggerExporter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Laraswag\\LaravelSwaggerExporter\\ServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  }
+}
